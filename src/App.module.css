@@ -1,0 +1,19 @@
+.navlink {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(44, 66, 165);
+}
+.navlink a {
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.navlink a:hover {
+    text-decoration: underline;
+}
+
+.navlink a.active {
+    text-decoration: underline;
+}
