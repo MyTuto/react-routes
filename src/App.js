@@ -28,6 +28,9 @@ function App() {
         <Route path="/products/:id">
           <ProductDetail />
         </Route>
+        <Route path='*'>
+          <div>Not found</div>
+        </Route>
       </Switch>
     </div>
   );
